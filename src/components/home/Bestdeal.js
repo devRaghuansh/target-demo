@@ -15,6 +15,7 @@ const useStyles = makeStyles({
     backgroundColor:' rgb(245, 234, 212)',
     padding: '37px 34px',
     paddingBottom:' 0',
+    textAlign: 'center',
   },
   cart:{
     background:'none !important',
