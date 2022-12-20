@@ -10,6 +10,9 @@ const useStyles = makeStyles({
       width: "100%",
       display: "block",
     },
+    "& a":{
+      display:'block'
+    }
   },
   coll: {
     width: "100%",
@@ -52,6 +55,11 @@ const Brand = () => {
             <Typography variant="h2">Fun gifts</Typography>
             <Typography>Give them toys from top brands.</Typography>
           </Box>
+        </Box>
+      </Link>
+      <Link href="#" style={{marginTop:'44px',}}>
+      <Box>
+          <img src="./img/7846098607313442252.jpg" alt="aa" />
         </Box>
       </Link>
     </Box>
