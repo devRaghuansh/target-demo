@@ -62,7 +62,6 @@ const Bestdeal = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  // height="140"
                   image={item.img}
                   alt="green iguana"
                 />

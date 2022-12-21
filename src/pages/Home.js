@@ -6,6 +6,7 @@ import Dealofday from "../components/home/Dealofday";
 import Deals from "../components/home/Deals";
 import Discount from "../components/home/Discount";
 import Holidaydiscount from "../components/home/Holidaydiscount";
+import Topdeal from "../components/home/Topdeal";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Dealofday/>
             <Discount/>
             <Holidaydiscount/>
+            <Topdeal/>
         </Box>
       
     </Box>
