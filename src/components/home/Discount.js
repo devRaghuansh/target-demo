@@ -46,7 +46,7 @@ const useStyles = makeStyles({
       color: "rgb(51, 51, 51)",
       fontWeight: "bold",
       lineHeight: "1.25",
-      fontSize: "23px",
+      fontSize: "20px",
       margin: "15px 0px 8px",
     },
   },
