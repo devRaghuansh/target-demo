@@ -5,6 +5,7 @@ import Bestdeal from '../components/home/Bestdeal'
 import Brand from '../components/home/Brand'
 import Dealofday from '../components/home/Dealofday'
 import Deals from '../components/home/Deals'
+import Discount from '../components/home/Discount'
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
             <Brand/>
             <Deals/>
             <Dealofday/>
+            <Discount/>
         </Box>
       
     </Box>
