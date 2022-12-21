@@ -10,9 +10,9 @@ const useStyles = makeStyles({
       width: "100%",
       display: "block",
     },
-    "& a":{
-      display:'block'
-    }
+    "& a": {
+      display: "block",
+    },
   },
   coll: {
     width: "100%",
@@ -47,7 +47,7 @@ const Brand = () => {
         <Box className={classes.coll}>
           <Box className={classes.img}>
             <img
-              src="./img/GUEST_bd89b62e-5e55-4b1b-a591-c86c125d644e.webp"
+              src="./img/dealoftheday.webp"
               alt="a"
             />
           </Box>
@@ -57,9 +57,9 @@ const Brand = () => {
           </Box>
         </Box>
       </Link>
-      <Link href="#" style={{marginTop:'44px',}}>
-      <Box>
-          <img src="./img/7846098607313442252.jpg" alt="aa" />
+      <Link href="#" style={{ marginTop: "44px" }}>
+        <Box>
+          <img src="./img/explore.jpg" alt="aa" />
         </Box>
       </Link>
     </Box>

@@ -26,8 +26,7 @@ const Search = styled("div")(({ theme }) => ({
   backgroundColor: "#f7f7f7",
   color: " #000",
   marginRight: theme.spacing(2),
-  marginLeft: 0,
-  width: " 471px",
+  width: 471,
   padding: "3px",
   display: "flex",
   alignItems: "center",
@@ -107,11 +106,7 @@ const useStyles = makeStyles({
     color: "#000",
     "& p": {
       fontSize: "14px",
-      maxWidth: "164px",
-      textOverflow: "ellipsis",
-      overflow: "hidden",
       marginLeft: "15px",
-      color: "rgb(51, 51, 51)",
     },
     "& svg": {
       color: "rgb(51, 51, 51)",
