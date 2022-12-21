@@ -36,14 +36,11 @@ const useStyles = makeStyles({
     width: "50%",
     "& ul": {
       display: "flex",
-      padding: "0",
       justifyContent: "end",
       "& li": {
         width: "auto",
         "& div span": {
           fontSize: "12px !important",
-          padding: "0px !important",
-          color: "white !important",
         },
       },
     },
