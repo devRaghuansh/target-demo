@@ -11,11 +11,18 @@ import React from "react";
 const usestyles = makeStyles({
   row: {
     width: "100%",
-    padding: "13px 34px",
+    padding: "35px 0px",
     marginTop: "15px",
     textAlign:'center',
     "& a":{
       display:' block',
+      "& p":{
+        color: 'rgb(51, 51, 51)',
+        fontSize: '0.9rem',
+        fontFamily: 'inherit',
+        fontWeight: 'normal',
+        padding: '6px',
+      }
     }
   },
 });
