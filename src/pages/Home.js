@@ -8,6 +8,7 @@ import Dealofday from "../components/home/Dealofday";
 import Deals from "../components/home/Deals";
 import Deliverday from "../components/home/Deliverday";
 import Discount from "../components/home/Discount";
+import Explore from "../components/home/Explore";
 import Holidaydiscount from "../components/home/Holidaydiscount";
 import Readyholiday from "../components/home/Readyholiday";
 import Topdeal from "../components/home/Topdeal";
@@ -27,6 +28,7 @@ const Home = () => {
             <Categorie/>
             <Deliverday/>
             <Corporate/>
+            <Explore/>
         </Box>
       
     </Box>

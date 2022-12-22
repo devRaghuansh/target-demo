@@ -13,27 +13,23 @@ import React from "react";
 const useStyles = makeStyles({
   row: {
     padding: "37px 34px",
-    paddingBottom: " 0",
     textAlign: "center",
-    width: '100%',
-    "& h2":{
-      fontWeight: 'bold',
-    lineHeight: '1.25',
-    fontSize: '36px',
-    margin: '0px 0px 19px',
-    }
+    width: "100%",
+    "& h2": {
+      fontWeight: "bold",
+      fontSize: "36px",
+      margin: "0px 0px 19px",
+    },
   },
   cart: {
     background: "none !important",
     boxShadow: "none !important",
     "& h5": {
-      fontFamily: "Helvetica, Arial, sans-serif",
       padding: "0",
       color: "#fff",
       fontWeight: "bold",
       lineHeight: "1.25",
       fontSize: "50px",
-      margin: "0",
       display: "flex",
       alignItems: "center",
       "& span": {
@@ -130,13 +126,12 @@ const Discount = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  // height="140"
                   image={item.img}
                   alt="green iguana"
                 />
                 <CardContent className={classes.cartcontent}>
                   <Typography>{item.con}</Typography>
-                  <Typography gutterBottom variant="h5">
+                  <Typography variant="h5">
                     {item.discount}
                     <span>
                       <span>%</span>
@@ -145,7 +140,7 @@ const Discount = () => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <Typography gutterBottom variant="h6">
+              <Typography variant="h6">
                 {item.disc}
               </Typography>
             </Card>
