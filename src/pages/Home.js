@@ -3,6 +3,7 @@ import React from "react";
 import Bestdeal from "../components/home/Bestdeal";
 import Brand from "../components/home/Brand";
 import Categorie from "../components/home/Categorie";
+import Corporate from "../components/home/Corporate";
 import Dealofday from "../components/home/Dealofday";
 import Deals from "../components/home/Deals";
 import Deliverday from "../components/home/Deliverday";
@@ -25,6 +26,7 @@ const Home = () => {
             <Readyholiday/>
             <Categorie/>
             <Deliverday/>
+            <Corporate/>
         </Box>
       
     </Box>
