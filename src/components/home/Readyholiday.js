@@ -81,5 +81,4 @@ const Readyholiday = () => {
     </Box>
   );
 };
-
 export default Readyholiday;

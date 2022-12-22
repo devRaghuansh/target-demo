@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import Bestdeal from "../components/home/Bestdeal";
 import Brand from "../components/home/Brand";
+import Categorie from "../components/home/Categorie";
 import Dealofday from "../components/home/Dealofday";
 import Deals from "../components/home/Deals";
 import Discount from "../components/home/Discount";
@@ -21,6 +22,7 @@ const Home = () => {
             <Holidaydiscount/>
             <Topdeal/>
             <Readyholiday/>
+            <Categorie/>
         </Box>
       
     </Box>
