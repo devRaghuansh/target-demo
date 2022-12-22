@@ -8,7 +8,6 @@ const useStyles = makeStyles({
     paddingBottom: " 0",
     textAlign: "center",
     width: "100%",
-   
     "& h2": {
       fontWeight: "bold",
       lineHeight: "1.25",
