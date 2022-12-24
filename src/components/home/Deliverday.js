@@ -1,4 +1,4 @@
-import { Avatar, Box, Grid, Link, Typography } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
 

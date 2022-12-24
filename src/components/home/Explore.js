@@ -12,7 +12,6 @@ const usestyles = makeStyles({
         }
     }
 });
-
 const Explore = () => {
   const classes = usestyles();
   return (
