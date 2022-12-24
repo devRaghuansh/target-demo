@@ -60,6 +60,9 @@ const Footer = () => {
           </Grid>
         ))}
       </Grid>
+      <Box textAlign="center">
+        <img src="./img/footer.svg" alt="logo" />
+      </Box>
     </Box>
   );
 };
