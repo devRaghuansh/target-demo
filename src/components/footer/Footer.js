@@ -1,9 +1,8 @@
 import { Box, Grid, Link, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
-import data from "./Fmenu";
-
-
+import Bfooter from "./Bfooter";
+import data from "./Fdata";
 
 const usestyles = makeStyles({
   footer: {
@@ -42,6 +41,7 @@ const usestyles = makeStyles({
 const Footer = () => {
   const classes = usestyles();
   return (
+    <>
     <Box className={classes.footer}>
       <Grid container spacing={4}>
         {data.map((item, index) => (
@@ -64,6 +64,8 @@ const Footer = () => {
         <img src="./img/footer.svg" alt="logo" />
       </Box>
     </Box>
+    <Bfooter/>
+    </>
   );
 };
 

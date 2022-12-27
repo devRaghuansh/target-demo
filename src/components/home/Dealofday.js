@@ -65,7 +65,7 @@ const Dealofday = () => {
           <Box className={classes.con}>
             <Typography variant="h2">
               Save
-              <Typography variant="h2">
+              <Typography>
                 <span>$</span>5
               </Typography>
             </Typography>
